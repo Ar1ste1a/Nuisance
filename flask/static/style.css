@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+body {
+    background-color: darkgray !important;
+}
+.shopping-cart-header {
+    background: #0047AB;
+    display: flex;
+    flex-direction: column;
+}
+
+.shopping-cart-header h1 {
+    font-family: Bitter;
+    font-size: 26px;
+    color: white;
+}
+
+.shopping-cart-header-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+}
+
+.shopping-cart-header-logo {
+    flex: 1;
+    height: 40px;
+    width: auto;
+}
+
+.shopping-cart-header-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.shopping-cart-header-cart {
+    flex: 1;
+    left: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.shopping-cart-body-button {
+    background-color: #0047AB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Bitter;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.shopping-cart-body-button:hover {
+    background-color: #002E5D;
+}
+
+.shopping-cart-body-button:active {
+    background-color: #002E5D;
+    transform: translateY(4px);
+}
+
+.shopping-cart-body {
+    text-align: center;
+    align-content: center;
+}
+
+.shopping-cart-container {
+    text-align: center;
+    align-content: center;
+}
+
+.shopping-cart {
+    /*width: 75%;*/
+    margin: 5% 20%;
+    background-color: #6F8FAF;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, lightblue, gray);
+    -webkit-background-clip: text; /* For Webkit-based browsers like Chrome and Safari */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Set text color to transparent */
+}
+
+.big_logo {
+    padding: 5px;
+    height: 150px;
+    width: auto;
+}
+
+.sm_logo {
+    padding: 5px;
+    height: 50px;
+    width: auto;
+}
+
+.registration-body {
+    text-align: center;
+    align-content: center;
+}
+
+.registration-body-container {
+    margin: 5% 20%;
+    background-color: #6F8FAF;
+}
+
+.nuisance-button {
+    background-color: #333333;
+    color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-family: Bitter;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nuisance-register-container {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 20%;
+}
+
+.nuisance-register-container p {
+    font-family: Bitter;
+    font-size: 30px;
+    color: white;
+    widht: 100%;
+}
+
+.nuisance-register-left {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    min-width: 25vw;
+}
+
+.nuisance-register-left p {
+    font-family: Bitter;
+    font-size: 40px;
+    color: white;
+}
+
+.nuisance-register-left input {
+    background-color: #6F8FAF;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    margin-left: 10px;
+}
+
+.nuisance-register-right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /*width: 100%;*/
+    right: 0;
+    margin-right: 0;
+    min-width: 25vw;
+}
+
+.nuisance-button:hover {
+    background-color: #333333;
+    color: lightgrey;
+}
+
+.nuisance-button:active {
+    background-color: #333333;
+    color: lightgrey;
+    transform: translateY(4px);
+}
+
+.register-container {
+    width: 100%;
+    align-content: center;
+}
+
+.register-block {
+    /*width: 80%;*/
+    margin: 5% 20% 5% 20%;
+    background-color: #6F8FAF;
+    display: flex;
+    flex-direction: column;
+}
