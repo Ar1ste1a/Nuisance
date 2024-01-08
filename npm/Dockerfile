@@ -3,7 +3,6 @@ FROM nikolaik/python-nodejs:latest
 LABEL authors="ar1ste1a and that other guy"
 
 EXPOSE 4011
-EXPOSE 7015
 
 # Install dependencies + Chrome Stable
 RUN apt-get update && apt-get install -y \
